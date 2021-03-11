@@ -1,17 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// Using ReactJS library
+import React from "react"
+import ReactDOM from "react-dom"
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+//babel JS compoler
+// const element = /*#__PURE__*/React.createElement("p", null, "Hello from Create React App");
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const element = <p>Hello from Create React App</p>
+
+ReactDOM.render(element, document.getElementById("root"))
+
+// JavaScript
+// window.onload = function init() {
+//   document.getElementById("root").innerHTML = "Hello from Create React App";
+// }
