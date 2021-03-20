@@ -2,6 +2,9 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
+//component files
+import TodoContainer from "./components/TodoContainer" //specify relative path from current dir
+ReactDOM.render(<TodoContainer />, document.getElementById("root"))
 //babel JS compoler
 // const element = /*#__PURE__*/React.createElement("p", null, "Hello from Create React App");
 
