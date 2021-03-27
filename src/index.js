@@ -4,13 +4,18 @@ import ReactDOM from "react-dom"
 
 //component files
 import TodoContainer from "./components/TodoContainer" //specify relative path from current dir
-ReactDOM.render(<TodoContainer />, document.getElementById("root"))
+ReactDOM.render(
+  <React.StrictMode>
+    <TodoContainer />
+  </React.StrictMode>,
+  document.getElementById("root")
+)
 //babel JS compoler
 // const element = /*#__PURE__*/React.createElement("p", null, "Hello from Create React App");
 
-const element = <p>Hello from Create React App</p>
+// const element = <p>Hello from Create React App</p>
 
-ReactDOM.render(element, document.getElementById("root"))
+// ReactDOM.render(element, document.getElementById("root"))
 
 // JavaScript
 // window.onload = function init() {
