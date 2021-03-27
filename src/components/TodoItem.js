@@ -2,13 +2,7 @@ import React from "react"
 
 class TodoItem extends React.Component {
   render() {
-    return (
-      <ul>
-        {this.props.todos.map(todo => (
-          <li key={todo.id}>{todo.title}</li>
-        ))}
-      </ul>
-    )
+    return <li>{this.props.todo.title}</li>
   }
 }
 
